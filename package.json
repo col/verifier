@@ -1,0 +1,20 @@
+{
+  "name": "verifier",
+  "version": "1.0.0",
+  "description": "Verifies Alexa requests",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "alexa",
+    "verify"
+  ],
+  "author": "Col Harris",
+  "license": "ISC",
+  "dependencies": {
+    "alexa-verifier": "0.0.5",
+    "express": "^4.14.0"
+  }
+}
